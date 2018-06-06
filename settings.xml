@@ -1,0 +1,35 @@
+<settings>
+
+    <profiles>
+
+        <profile>
+
+            <id>main</id>
+
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <name>Maven Repository Switchboard</name>
+                    <layout>default</layout>
+                    <url>http://repo1.maven.org/maven2</url>
+                </repository>
+            </repositories>
+
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>central</id>
+                    <name>Maven Repository Switchboard</name>
+                    <layout>default</layout>
+                    <url>http://repo1.maven.org/maven2</url>
+                </pluginRepository>
+            </pluginRepositories>
+
+        </profile>
+
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>main</activeProfile>
+    </activeProfiles>
+
+</settings>
