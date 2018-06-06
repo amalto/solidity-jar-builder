@@ -1,12 +1,12 @@
 # solidity-jar-builder
 Skeletion Maven project showing how to build Web3j classes from solidity contracts
 
-###Prerequisites
+## Prerequisites
 
  - Install java (https://java.com/en/download/help/windows_manual_download.xml)
  - Install maven (https://maven.apache.org/guides/getting-started/windows-prerequisites.html)
  
- Confirm prerequisites by running by running a version test on the command line before continuing:
+ Confirm prerequisites by running a version test using this command line before continuing:
  
  ```
 mvn -version
@@ -18,7 +18,7 @@ Default locale: en_GB, platform encoding: UTF-8
 OS name: "mac os x", version: "10.13.4", arch: "x86_64", family: "mac"
 ```
 
-###Operation
+## Operation
 
  - Edit the pom.xml setting the __artifactId__ and __version__ to values of your choice:
  
