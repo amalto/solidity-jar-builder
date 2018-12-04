@@ -5,6 +5,6 @@
 #brew install solidity
 #which solc
 
-solc ./src/main/resources/Ondiflo.sol --bin --abi --optimize -o ./target
+solc ./src/main/resources/SimpleStorage.sol --bin --abi --optimize -o ./target
 
 

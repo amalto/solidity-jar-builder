@@ -12,7 +12,7 @@
         <dependency>
             <groupId>org.web3j</groupId>
             <artifactId>core</artifactId>
-            <version>3.3.0</version>
+            <version>3.6.0</version>
         </dependency>
     </dependencies>
 
@@ -21,7 +21,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>2.3.1</version>
+                <version>3.1.0</version>
                 <configuration>
                     <archive>
                         <addMavenDescriptor>true</addMavenDescriptor>
@@ -38,7 +38,7 @@
             <plugin>
                 <groupId>org.web3j</groupId>
                 <artifactId>web3j-maven-plugin</artifactId>
-                <version>0.3.0</version>
+                <version>0.3.7</version>
                 <configuration>
                     <packageName>com.amalto.platform6.solidity.model</packageName>
                     <sourceDestination>src/main/java/</sourceDestination>
