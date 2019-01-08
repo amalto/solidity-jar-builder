@@ -40,7 +40,7 @@
                 <artifactId>web3j-maven-plugin</artifactId>
                 <version>0.3.7</version><!-- cannot upgrade to 4.0.3 because it requires Java 11 -->
                 <configuration>
-                    <packageName>com.amalto.platform6.solidity.model</packageName>
+                    <packageName>io.platform6.demo.sc</packageName>
                     <sourceDestination>src/main/java/</sourceDestination>
                     <soliditySourceFiles>
                         <directory>src/main/resources</directory>
