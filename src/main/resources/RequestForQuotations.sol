@@ -83,7 +83,7 @@ contract RequestForQuotations {
         status = rfqs[id].status;
     }
 
-    function submitRFQ(bytes16 id, uint issuedAt, string memory ubl) public onlyBuyer {
+    function submitRFQ(bytes16 id, uint issuedAt, string memory ubl) public onlyBuyer returns (bool) {
         // Make sure the RFQ is submitted only once
         require(rfqs[id].id == 0x0);
 
@@ -94,6 +94,8 @@ contract RequestForQuotations {
 
         nbrOfRFQs++;
         emit RFQReceived(id, issuedAt, ubl);
+
+        return true;
     }
 
 
@@ -116,7 +118,7 @@ contract RequestForQuotations {
         supplier = quotes[id].supplier;
     }
 
-    function submitQuote(bytes16 id, bytes16 rfqId, uint issuedAt, string memory ubl) public {
+    function submitQuote(bytes16 id, bytes16 rfqId, uint issuedAt, string memory ubl) public returns (bool) {
         // Make sure the RFQ exists
         require(rfqs[rfqId].id == rfqId);
 
@@ -132,9 +134,11 @@ contract RequestForQuotations {
 
         nbrOfQuotes++;
         emit QuoteReceived(supplier, rfqId, id, issuedAt, ubl);
+
+        return true;
     }
 
-    function declineRFQ(bytes16 id, bytes16 rfqId, uint issuedAt) public {
+    function declineRFQ(bytes16 id, bytes16 rfqId, uint issuedAt) public returns (bool) {
         // Make sure the RFQ exists
         require(rfqs[rfqId].id == rfqId);
 
@@ -152,5 +156,7 @@ contract RequestForQuotations {
 
         nbrOfQuotes++;
         emit RFQDeclined(supplier, rfqId, id, issuedAt);
+
+        return true;
     }
 }
