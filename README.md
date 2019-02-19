@@ -1,5 +1,5 @@
 # solidity-jar-builder
-Skeletion Maven project showing how to build Web3j classes from solidity contracts
+Skeleton Maven project showing how to build Web3j classes from solidity contracts
 
 ## Prerequisites
 
