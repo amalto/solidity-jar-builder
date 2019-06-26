@@ -1,10 +1,10 @@
 # solidity-jar-builder
-Skeletion Maven project showing how to build Web3j classes from solidity contracts
+Skeleton Maven project showing how to build Web3j classes from solidity contracts
 
 ## Prerequisites
 
- - Install java (https://java.com/en/download/help/windows_manual_download.xml)
- - Install maven (https://maven.apache.org/guides/getting-started/windows-prerequisites.html)
+ - Install [Java](https://java.com/en/download/help/windows_manual_download.xml)
+ - Install [Maven](https://maven.apache.org/guides/getting-started/windows-prerequisites.html)
  
  Confirm prerequisites by running a version test using this command line before continuing:
  
