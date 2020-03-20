@@ -1,5 +1,5 @@
 # solidity-jar-builder
-Skeleton Maven project showing how to build Web3j classes from solidity contracts
+Sample Maven project showing how to generate Java classes from a smart contract written in Solidity.
 
 ## Prerequisites
 
