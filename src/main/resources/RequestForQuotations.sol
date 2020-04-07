@@ -1,4 +1,4 @@
-pragma solidity ^0.5.1;
+pragma solidity >=0.5.1;
 
 
 contract RequestForQuotations {
@@ -54,7 +54,7 @@ contract RequestForQuotations {
 
     address private buyer;
 
-    constructor() public {
+    constructor () public {
         buyer = msg.sender;
     }
 

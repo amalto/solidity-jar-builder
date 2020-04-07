@@ -1,4 +1,4 @@
-pragma solidity ^0.5.1;
+pragma solidity >=0.5.1;
 
 
 contract SimpleStorage {
@@ -6,7 +6,7 @@ contract SimpleStorage {
 
   event StoredDataChanged(uint indexed oldValue, uint indexed newValue);
 
-  constructor(uint initialValue) public {
+  constructor (uint initialValue) public {
     storedData = initialValue;
   }
 

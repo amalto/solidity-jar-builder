@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.amalto.platform6</groupId>
+    <groupId>io.platform6.contracts</groupId>
     <artifactId>demo-app-smart-contract</artifactId>
     <version>1.0</version>
 
@@ -43,7 +43,7 @@
             <plugin>
                 <groupId>org.web3j</groupId>
                 <artifactId>web3j-maven-plugin</artifactId>
-                <version>4.2.0</version>
+                <version>4.5.11</version>
                 <configuration>
                     <packageName>io.platform6.demo.sc</packageName>
                     <sourceDestination>src/main/java/</sourceDestination>

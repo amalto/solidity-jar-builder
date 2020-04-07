@@ -35,4 +35,21 @@ OS name: "mac os x", version: "10.13.4", arch: "x86_64", family: "mac"
  ```
  mycontract-1.0.jar
  ```
+
+### Troubleshooting
+
+Old version of solc installed?  If your solidity compilation is failing with errors that suggest it's using an older version of solidity compiler than specified in you .sol file(s),
+check the version of solc installed:
+
+```shell script
+solc --version
+solc, the solidity compiler commandline interface
+Version: 0.4.20+commit.3155dd80.Darwin.appleclang
+``` 
+
+If required, upgrade it:
+
+```shell script
+brew upgrade solidity
+```
  
