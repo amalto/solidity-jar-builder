@@ -1,4 +1,5 @@
-pragma solidity >=0.5.1;
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.7.5;
 
 
 contract RequestForQuotations {
@@ -54,7 +55,7 @@ contract RequestForQuotations {
 
     address private buyer;
 
-    constructor () public {
+    constructor () {
         buyer = msg.sender;
     }
 

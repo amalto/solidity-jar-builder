@@ -1,9 +1,7 @@
 <settings>
 
     <profiles>
-
         <profile>
-
             <id>main</id>
 
             <repositories>
@@ -25,7 +23,6 @@
             </pluginRepositories>
 
         </profile>
-
     </profiles>
 
     <activeProfiles>

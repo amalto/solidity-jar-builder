@@ -1,4 +1,5 @@
-pragma solidity >=0.5.1;
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.7.5;
 
 
 contract SimpleStorage {
@@ -6,7 +7,7 @@ contract SimpleStorage {
 
   event StoredDataChanged(uint indexed oldValue, uint indexed newValue);
 
-  constructor (uint initialValue) public {
+  constructor (uint initialValue) {
     storedData = initialValue;
   }
 
